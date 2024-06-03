@@ -1,0 +1,32 @@
+2024-06-03 16:50:57.488 +03:00 [INF] User profile is available. Using 'C:\Users\info\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-03 16:50:57.741 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:50:57.778 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:50:57.832 +03:00 [INF] Now listening on: http://localhost:5206
+2024-06-03 16:50:57.858 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-03 16:50:57.860 +03:00 [INF] Hosting environment: Development
+2024-06-03 16:50:57.862 +03:00 [INF] Content root path: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation
+2024-06-03 16:50:58.043 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2024-06-03 16:50:58.307 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-03 16:50:58.757 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 718.9687ms
+2024-06-03 16:50:59.860 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - null null
+2024-06-03 16:50:59.888 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-03 16:50:59.894 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 6.2403ms
+2024-06-03 16:50:59.905 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.2261ms
+2024-06-03 16:51:00.655 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2024-06-03 16:51:00.873 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 218.4309ms
+2024-06-03 16:51:52.336 +03:00 [INF] User profile is available. Using 'C:\Users\info\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-03 16:51:52.699 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:51:52.750 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:51:52.782 +03:00 [INF] Now listening on: http://localhost:5206
+2024-06-03 16:51:52.790 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-03 16:51:52.792 +03:00 [INF] Hosting environment: Development
+2024-06-03 16:51:52.794 +03:00 [INF] Content root path: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation
+2024-06-03 16:51:52.958 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2024-06-03 16:51:53.070 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-03 16:51:53.257 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 301.336ms
+2024-06-03 16:51:53.353 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - null null
+2024-06-03 16:51:53.381 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-03 16:51:53.451 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.6325ms
+2024-06-03 16:51:53.472 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 91.3898ms
+2024-06-03 16:51:57.173 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2024-06-03 16:51:57.441 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 268.5411ms

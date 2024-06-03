@@ -1,0 +1,44 @@
+2024-06-03 16:49:47.595 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-06-03 16:49:51.460 +03:00 [INF] Executed DbCommand (2,315ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Hotels];
+2024-06-03 16:49:51.910 +03:00 [INF] Executed DbCommand (439ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Hotels] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-06-03 16:49:51.937 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-03 16:49:52.330 +03:00 [INF] Executed DbCommand (269ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-06-03 16:49:52.333 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-03 16:49:52.358 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-03 16:49:52.367 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-03 16:49:52.398 +03:00 [INF] Applying migration '20240603133609_InitialCreate'.
+2024-06-03 16:49:52.615 +03:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240603133609_InitialCreate', N'8.0.6');
+2024-06-03 16:50:38.753 +03:00 [INF] User profile is available. Using 'C:\Users\info\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-03 16:50:39.103 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:50:39.157 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:50:39.201 +03:00 [INF] Now listening on: http://localhost:5206
+2024-06-03 16:50:39.218 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-03 16:50:39.225 +03:00 [INF] Hosting environment: Development
+2024-06-03 16:50:39.226 +03:00 [INF] Content root path: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation
+2024-06-03 16:50:39.315 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2024-06-03 16:50:39.429 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-03 16:50:39.595 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 282.869ms
+2024-06-03 16:50:39.646 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-03 16:50:39.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.0704ms
+2024-06-03 16:50:39.691 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - null null
+2024-06-03 16:50:39.742 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.0407ms
+2024-06-03 16:50:41.317 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2024-06-03 16:50:41.516 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 198.3059ms

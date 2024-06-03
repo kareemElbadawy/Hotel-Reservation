@@ -1,0 +1,17 @@
+2024-06-03 16:51:52.915 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-06-03 16:52:11.965 +03:00 [INF] User profile is available. Using 'C:\Users\info\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-03 16:52:12.403 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:52:12.505 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:52:12.595 +03:00 [INF] Now listening on: http://localhost:5206
+2024-06-03 16:52:12.746 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-03 16:52:12.748 +03:00 [INF] Hosting environment: Development
+2024-06-03 16:52:12.751 +03:00 [INF] Content root path: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation
+2024-06-03 16:52:12.758 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2024-06-03 16:52:13.361 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-03 16:52:13.745 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 988.1861ms
+2024-06-03 16:52:16.035 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - null null
+2024-06-03 16:52:16.058 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-03 16:52:16.072 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 13.4235ms
+2024-06-03 16:52:16.101 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.7497ms
+2024-06-03 16:52:17.068 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2024-06-03 16:52:17.314 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 246.353ms

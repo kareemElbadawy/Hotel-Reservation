@@ -1,0 +1,50 @@
+2024-06-03 16:36:07.141 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-06-03 16:45:29.886 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-06-03 16:45:30.841 +03:00 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-03 16:45:30.903 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-03 16:45:30.908 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-03 16:45:30.910 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-03 16:45:30.938 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-03 16:45:30.974 +03:00 [INF] Applying migration '20240603133609_InitialCreate'.
+2024-06-03 16:45:31.098 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240603133609_InitialCreate', N'8.0.6');
+2024-06-03 16:45:31.327 +03:00 [INF] User profile is available. Using 'C:\Users\info\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-03 16:45:31.663 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:45:31.704 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:45:31.729 +03:00 [INF] Now listening on: http://localhost:5206
+2024-06-03 16:45:31.735 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-03 16:45:31.737 +03:00 [INF] Hosting environment: Development
+2024-06-03 16:45:31.738 +03:00 [INF] Content root path: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation
+2024-06-03 16:45:31.874 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2024-06-03 16:45:32.113 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-03 16:45:32.317 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 444.2544ms
+2024-06-03 16:45:32.389 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-03 16:45:32.389 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - null null
+2024-06-03 16:45:32.397 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 8.7297ms
+2024-06-03 16:45:32.441 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.4643ms
+2024-06-03 16:45:33.266 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2024-06-03 16:45:33.488 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.6738ms
+2024-06-03 16:47:55.701 +03:00 [INF] User profile is available. Using 'C:\Users\info\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-03 16:47:56.038 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:47:56.085 +03:00 [WRN] The WebRootPath was not found: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation\wwwroot. Static files may be unavailable.
+2024-06-03 16:47:56.124 +03:00 [INF] Now listening on: http://localhost:5206
+2024-06-03 16:47:56.142 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-03 16:47:56.145 +03:00 [INF] Hosting environment: Development
+2024-06-03 16:47:56.147 +03:00 [INF] Content root path: C:\Users\info\source\repos\Hotel-Reservation\Hotel-Reservation
+2024-06-03 16:47:56.321 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2024-06-03 16:47:56.424 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-03 16:47:56.598 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 278.32ms
+2024-06-03 16:47:56.727 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-03 16:47:56.734 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.1218ms
+2024-06-03 16:47:56.802 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - null null
+2024-06-03 16:47:56.873 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.6766ms
+2024-06-03 16:48:00.463 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2024-06-03 16:48:00.683 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 219.6096ms
